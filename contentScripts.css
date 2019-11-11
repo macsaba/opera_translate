@@ -1,0 +1,198 @@
+/*saved from url=(0081)https://angol-magyar-szotar.hu/#forditInput=carry&korra=0&from=en&to=hu&version=4*/
+.__container span {
+	all: unset;
+}
+
+div.__selection-popup-container__ {
+  position: absolute !important;
+  z-index: 999999 !important;
+}
+
+div.__selection-popup-container__ > ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  user-select: none !important;
+  border: 1px solid #444 !important;
+  box-shadow: 0 0 10px rgba(0, .__container 0, .__container 0, .__container 1) !important;
+  border-radius: 2px !important;
+}
+
+div.__selection-popup-container__ > ul > li {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 7px !important;
+  background-color: #555 !important;
+  color: #fff !important;
+  width: 160px !important;
+  list-style: none !important;
+  font-size: 14px !important;
+  line-height: 32px !important;
+  letter-spacing: 1px !important;
+  font-family: Calibri, .__container 'Trebuchet MS', .__container sans-serif !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  transition: all 0.25s ease-out !important;
+}
+
+div.__selection-popup-container__ > ul > li:hover {
+  background-color: #666 !important;
+}
+
+div.__selection-popup-container__ > ul > li:active {
+  background-color: #444 !important;
+}
+
+div.__selection-popup-container__ > ul.single-liner {
+  height: 34px !important;
+}
+
+div.__selection-popup-container__ > ul.single-liner > li {
+  text-align: center !important;
+  display: inline-block !important;
+  width: 74px !important;
+  border-right: 1px solid #555 !important;
+}
+
+div.__selection-popup-container__ > ul.single-liner > li:nth-of-type(1) {
+  border-right: 1px solid #444 !important;
+}
+
+div.__selection-popup-container__
+  > ul:not(.single-liner)
+  > li:not(:first-of-type) {
+  border-top: 1px solid #444 !important;
+}
+div.__container__ {	
+  width: 400px !important;
+  height: 250px !important;  
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  background-color: #ffffff !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  border: 3px solid #f1f1f1 !important;
+}
+
+div.__szotar-div__ {
+	background-color: #ffffff !important;
+  width: 400px !important;
+  z-index: 99 !important;
+  position: static !important;
+}
+
+div.__close__ {
+	background-color: #f2f2f2 !important;
+	height: 35px !important;
+	width: inherit !important;
+	text-align: center;
+	position: fixed !important;
+	bottom:0 !important;
+}
+
+div.__close__ :hover{
+	background-color: #ffffff !important;
+}
+
+
+.__container #ford_doboz .tablasor1 td {
+	background-color: #CDDCFE !important;
+}
+.__container #ford_doboz .tablasor2 td {
+	background-color: #FFD5D5 !important;
+}
+.__container #ford_doboz td:hover {
+	background-color: #CC9 !important;
+}
+.__container #ford_doboz th[scope=row]:hover {
+	background-color: #CC9 !important;
+}
+
+
+.__container .noselect {
+	-webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+
+
+
+.__container {
+	width: 400px !important;
+	height:100% !important;
+	margin: 0 !important;
+}
+
+
+.__contentContainer {
+	background-repeat: repeat-y !important;
+	background-position: right top !important;
+	min-height:770px !important;
+	padding-right:32px !important;
+}
+
+.__container #ford_doboz {
+	background-color: #FFF !important;
+	border: 1px solid #C2C5C9 !important;
+	min-height:40px !important;
+	width:100% !important;
+	padding: 8px !important;
+	font-size:1em !important;
+	word-wrap: break-word !important;
+	text-shadow: 1px 1px 1px #ccc !important;
+}
+.__container #ford_doboz table {
+	border:none !important;
+	width:100% !important;
+	margin:0px !important;
+	margin-bottom:3px !important;
+}
+.__container #ford_doboz td {
+	width:50% !important;
+	font-size:1em !important;
+	border-spacing: 3px !important;
+	padding: 5px !important;
+	cursor:pointer !important;
+}
+.__container #ford_doboz td.kiejt[rel="en"], .__container #ford_doboz td.kiejt[rel="de"], .__container #ford_doboz td.kiejt[rel="it"], .__container #ford_doboz td.kiejt[rel="fr"], .__container #ford_doboz td.kiejt[rel="es"] {
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+}
+.__container #ford_doboz td.kiejt[rel="en"]:hover, .__container #ford_doboz td.kiejt[rel="de"]:hover, .__container #ford_doboz td.kiejt[rel="it"]:hover, .__container #ford_doboz td.kiejt[rel="fr"]:hover, .__container #ford_doboz td.kiejt[rel="es"]:hover {
+
+	background-repeat: no-repeat !important;
+	background-position: right center !important;
+}
+
+.__container #ford_doboz .sorszam {
+	color:#FFF !important;
+	padding-right:3px !important;
+	float:right !important;
+}
+.__container #ford_doboz .egyebsor {
+	font-size:9px !important;
+	color:#FFF !important;
+}
+
+.__container .tovabbiszotar a:link, .__container .__container .tovabbiszotar a:visited {
+	font-size:98% !important;
+	text-decoration:none !important;
+}
+.__container .tovabbiszotar a:hover {
+	text-decoration:underline !important;
+}
+.__container .tovabbitalalatok {
+	text-align:center !important;
+	font-size:9px !important;
+	color:#C8C8C8 !important;
+	letter-spacing: 2px !important;
+	text-shadow: none !important;
+	margin-bottom:4px !important;
+	font-weight:bold !important;
+}
+
+

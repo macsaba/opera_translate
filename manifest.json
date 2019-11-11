@@ -1,0 +1,22 @@
+{
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "css": ["./contentScripts.css"],
+      "js": ["./contentScripts.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "Translate popup action",
+  
+  "manifest_version": 2,
+  "name": "Translate",
+  "permissions": ["http://*/*", "https://*/*", "storage", "tabs"],
+  "version": "1.0"
+}
